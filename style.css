@@ -73,6 +73,8 @@ section{
 
 /*임성택 얼굴 사진*/
 .photoset{
+  width : 300px; 
+  height: 300px;
   border-radius: 50%;
   border: 2px solid #20daff;
   box-shadow: 1px 1px 1px 1px #20daff;
