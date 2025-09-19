@@ -1,11 +1,13 @@
-@import url("");
+@import url('https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=swap');
 
 body {
+  font-family: "Asta Sans", sans-serif;
   align-items: center;
   justify-content: center;
 }
 
 .headcont {
+  font-weight: bold;
   margin: 12px;
 }
 
@@ -32,7 +34,8 @@ h2 {
 }
 
 
-.title{
+.title {
+  border-top: 20px solid orange;
   border-bottom: 3px solid rgba(128, 128, 128, 0.443);
 }
 
@@ -48,11 +51,21 @@ h2 {
   border-bottom: 3px solid  rgba(128, 128, 128, 0.443);
 }
 
-.school {
+.school .activity {
   margin-bottom: 50px;
 }
 
 a {
   color: gray;
+}
+
+.say {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+  margin-bottom: 200px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  color: black;
 }
 
