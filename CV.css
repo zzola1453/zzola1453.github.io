@@ -4,6 +4,12 @@ body {
   font-family: "Asta Sans", sans-serif;
   align-items: center;
   justify-content: center;
+  border-top: 20px solid orange;
+  margin: auto;
+}
+
+.default {
+  margin: 12px;
 }
 
 .headcont {
@@ -44,7 +50,6 @@ h2 {
 }
 
 .title {
-  border-top: 20px solid orange;
   border-bottom: 3px solid rgba(128, 128, 128, 0.443);
 }
 
